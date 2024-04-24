@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
+.naslovna{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.naslovna > .linkovi {
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    justify-content: center;
+    margin-left: 550px;
+}
+.naslovna > .linkovi a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+}
+.gray{
+    background-color: rgba(107, 103, 103, 0.3);
+    width: 100%;
+    height: 10px;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(0, 0, 0, 0.09);;
+}
+footer > .follow{
+    position: relative;
+    left: 1200px;
+    bottom: 170px;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+footer >.follow>h3{
+    color: orange;
+    position: relative;
+    right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+footer img{
+    position: relative;
+    left: 250px;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    height: 30px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+table tr{
+    height: 50px;
+    padding: 10px;
+}
+table td{
+    width: 850px;
+    padding: 10px;
+}
+table tr:nth-child(even){
+    background-color: lightgray;
+}
+table tr:nth-child(odd){
+    background-color: white;
+}
+.iznad-tabele{
+    margin-left: 350px;
+    width: 500px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+.levo{
+    position: absolute;
+    width: 200px;
+    text-align: left;
+    left: 1250px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#table2{
+    margin-top: 50px;
+}
