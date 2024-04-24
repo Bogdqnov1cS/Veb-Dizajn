@@ -1,0 +1,186 @@
+*{ margin: 0; padding: 0; }
+
+#skroz_gore{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logo_navbar{ 
+    background-color: rgb(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+
+#logo_navbar > li > ul{
+    display: inline-block;
+    margin-top: 35px;
+}
+#logo_navbar > li > ul > a{
+    font-size: 22px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    height: 150px;
+    width: 200px;
+    margin: -30px;
+}
+.top{
+    background-image: url(/SLIKE/hero.jpg);
+    height: 650px;
+}
+.top_bottom{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+    font-size: 2em; 
+    margin-left: 200px; 
+    margin-top: 150px;
+    padding: 10px;
+}
+.kuvar_main{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    left: 25%;
+}
+.kuvar_main img{
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+}
+.text_kuvar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 900px;
+    height: 500px;
+}
+.text_kuvar p{
+    margin-top: 10px;
+}
+.text_kuvar h1{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hamburger{
+    background-color: rgb(39, 23, 15);
+    width: 100%;
+    height: 450px;
+}
+.hamburger > .main{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 300px;
+}
+.hamburger > .main .text1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    left: 15%;
+}
+.hamburger > .main .text1 > p{
+    margin-right: 300px;
+    margin-top: 10px;
+}
+.hamburger > .main > img{
+    margin-right: 500px;
+    margin-top: 20px;
+}
+.jelovnik{
+    display: flex;
+    flex-direction: row;
+}
+.jelovnik  h1{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jelovnik > .text_jelovnik {
+    margin-top: 50px;
+    width: 250px;
+    position: absolute;
+    left: 150px;
+}
+.jelovnik > .text_jelovnik p{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jelovnik > .jelovnik_img {
+    display: flex;
+    margin-top: 10px;
+    position: absolute;
+    left: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jelovnik > .jelovnik_img > .img1{
+    width: 500px;
+    text-align: center;
+}
+.jelovnik > .jelovnik_img > .img2{
+    width: 500px;
+    text-align: center;
+    margin-left: 250px;
+}
+.jelovnik > .jelovnik_img > .img1{
+    width: 300px;
+    text-align: center;
+}
+.jelovnik > .jelovnik_img > .img2{
+    width: 300px;
+    text-align: center;
+}
+.jelovnik > .text_jelovnik > button{
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+footer{
+    margin-top: 500px;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(0, 0, 0, 0.09);;
+}
+footer > .follow{
+    position: relative;
+    left: 1200px;
+    bottom: 170px;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+footer >.follow>h3{
+    color: orange;
+    position: relative;
+    right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+footer img{
+    position: relative;
+    left: 250px;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    height: 30px;
+}
